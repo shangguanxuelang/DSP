@@ -1,0 +1,99 @@
+.contact{
+	height: 795px;
+	overflow: hidden;
+}
+.contact>p{
+	text-align: center;
+}
+.contact>p:nth-of-type(1){
+	font: bold 30px 微软雅黑;
+	color: #e94b59;
+	margin-top: 35px;
+}
+.contact>p:nth-of-type(2){
+	font: 16px 微软雅黑;
+	margin-top: 15px;
+}
+.contact-center{
+	width: 624px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.contact-center form{
+	position: relative;
+	margin-left: 10px;
+	font: 20px 微软雅黑;
+	
+}
+.contact-center form>p{
+	position: absolute;
+	display: inline;
+	width: 460px;
+	height: 30px;
+	border: 2px solid #b8b8b8;
+	left: 116px;
+}
+.contact-center form>input{
+	position: absolute;
+	left: 116px;
+	width: 455px;
+	height: 30px;
+	line-height: 25px;
+	background: #fff;
+	padding: 0 5px;
+	outline-style: none;
+	border: none;
+	z-index: 100;
+}
+.contact-center form>span{
+	font: 16px 微软雅黑;
+	color: #d3d3d3;
+}
+#tiepian{
+	width: 15px;
+	height: 15px;
+	margin-left: 20px;
+	margin-top: 8px;
+}
+#zanting{
+	width: 15px;
+	height: 15px;
+	margin-left: 180px;
+	margin-top: 8px;
+}
+#yidongduan{
+	width: 15px;
+	height: 15px;
+	margin-left: 360px;
+	margin-top: 8px;
+}
+#qita{
+	width: 15px;
+	height: 15px;
+	margin-left: 20px;
+	margin-top: 7px;
+}
+#sale1{
+	width: 15px;
+	height: 15px;
+	margin-left: 20px;
+	margin-top: 8px;
+}
+#sale2{
+	width: 15px;
+	height: 15px;
+	margin-left: 105px;
+	margin-top: 8px;
+}
+#sale3{
+	width: 15px;
+	height: 15px;
+	margin-left: 220px;
+	margin-top: 8px;
+}
+#sale4{
+	width: 15px;
+	height: 15px;
+	margin-left: 360px;
+	margin-top: 8px;
+}

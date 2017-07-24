@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>第五个页面</title>
+		<title>第四个页面</title>
+		<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/user.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/contact.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/animate.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/swiper-3.4.2.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/animate.min.css"/>
+	</head>
+	<body>
+		<!--页面左侧导航-->
+		<div id="left">
+			<div class="menu">
+				<p></p>
+				<p></p>
+				<p></p>
+			</div>
+			<img src="../img/4.png" alt="" />
+		</div>
+		<!--页面顶部-->
+		<div class="top">
+			<p>51DSP.cn</p>
+		</div>
+		
+		<!--大图滚动-->
+		<div class="swiper-container nav">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide"><img src="../img/25.png" style="width: 100%;"/></div>
+		        <div class="swiper-slide"><img src="../img/23.png" style="width: 100%;"/></div>
+		        <div class="swiper-slide"><img src="../img/24.png" style="width: 100%;"/></div>
+		    </div>
+		    <div class="nav-bottom clearfix">
+				<div class="nav-left fl">
+					<img src="../img/2.png" alt="" />
+					<p id="data">2017年7月2号</p>
+					<a href="#"><img src="../img/3.png" alt="" /></a>
+				</div>
+				<div class="nav-right fr">
+					<ul class="clearfix" id="mylist">
+						<li><a href="#">联系方式</a></li>
+						<li><a href="#">关于我们</a></li>
+						<li><a href="#">外包项目</a></li>
+						<li><a href="#">移动端广告</a></li>
+						<li><a href="">视频广告</a></li>
+						<li><a href="#"><span>51DSP</span>介绍</a></li>
+					</ul>
+				</div>
+			</div>
+		    <!-- 如果需要分页器 -->
+		    <!--<div class="swiper-pagination"></div>-->
+		    
+		    <!-- 如果需要导航按钮 -->
+		    <!--<div class="swiper-button-prev"></div>
+		    <div class="swiper-button-next"></div>-->
+		    
+		    <!-- 如果需要滚动条 -->
+		    <!--<div class="swiper-scrollbar"></div>-->
+		</div>
+		
+		<div class="contact">
+			<p>咨询留言</p>
+			<p>请仔细填写以下内容，方便准确提供投放方案</p>
+			<div class="contact-center">
+				<form action="register.php" method="GET" >
+					姓<span style="margin-left: 39px;"></span>名 ：<p></p><input style="margin-top: -5px;" type="text" name="user"><br/>
+					<br />
+					联系电话 ：<p style="top: 48px;"></p><input type="text" style="top: 43px;"><br/>
+					<br />
+					邮箱地址 ：<p style="top: 100px;"></p><input type="text" style="top: 95px;"><br/>
+					<br />
+					广告需求 ： <input checked type="radio" name="guanggao" value="tiepian" id="tiepian"> <span style="margin-left: 45px;">贴片广告</span>
+					<input type="radio" name="guanggao" value="zanting" id="zanting"> <span style="margin-left: 90px;">暂停广告</span>
+					<input type="radio" name="guanggao" value="yidongduan" id="yidongduan"> <span style="margin-left: 110px;">移动端广告</span>		
+					<br />
+					<br />
+					<input type="radio" name="guanggao" value="qita" id="qita"> <span style="margin-left: 156px;">其他</span> <input type="text" style="width: 390px;margin-left: 85px;margin-top: 5px;border: 2px solid #b8b8b8;box-sizing: border-box;"/>
+					<br />
+					<br />
+					预计花费 ： <input checked type="radio" name="sale" value="sale1" id="sale1"> <span style="margin-left: 45px;">5万内</span>
+					<input type="radio" name="sale" value="sale2" id="sale2"> <span style="margin-left: 40px;">5万~30万</span>
+					<input type="radio" name="sale" value="sale3" id="sale3"> <span style="margin-left: 35px;">30万~100万</span>	
+					<input type="radio" name="sale" value="sale3" id="sale4"> <span style="margin-left: 40px;">100万以上</span>	
+					<br />
+					<br />
+					留言备注 ：  <textarea name="detail" cols="45" rows="6" style="position: absolute;left: 116px;resize: none;border: 2px solid #b8b8b8;"></textarea>
+					<br />
+					<input type="submit" value="提交留言" style="text-align: center;height: 45px;width: 145px;background: #ff6461;color: #fff;border-radius: 8px;margin-top: 180px;margin-left: 326px;" />
+				</form>
+			</div>
+		</div>
+		
+		<!--底部-->
+		<div class="bottom">
+			<p>京ICP备09083201号 京ICP证070419号  京公网安备:11010502026763</p>
+			<p>Copyright&copy;2015 51dsp.com All Rights Reserved</p>
+		</div>
+		
+		
+		
+		<script src="../js/swiper-3.4.2.min.js"></script>
+		<script src="../js/jquery-1.9.1.js"></script>
+		<script src="../js/jquery.easing.min.js"></script>
+		<script type="text/javascript">        
+		  	var mySwiper = new Swiper ('.swiper-container', {
+		    direction: 'horizontal',
+		    loop: true,
+		    autoplay: 3000,
+		    
+		    // 如果需要分页器
+//		    pagination: '.swiper-pagination',
+		    
+		    // 如果需要前进后退按钮
+//		    nextButton: '.swiper-button-next',
+//		    prevButton: '.swiper-button-prev',
+		    
+		    // 如果需要滚动条
+//		    scrollbar: '.swiper-scrollbar',
+		  })        
+		</script>
+		<script src="../js/base.js"></script>
+	</body>
+</html>

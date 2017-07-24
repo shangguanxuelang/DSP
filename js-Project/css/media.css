@@ -1,0 +1,52 @@
+.flash{
+	height: 555px;
+	overflow: hidden;
+}
+.flash>p:nth-of-type(1){
+	font: bold 30px "微软雅黑";
+	color: #e94b59;
+	text-align: center;
+	margin-top: 25px;
+}
+.flash>p:nth-of-type(2){
+	font: bold 20px "微软雅黑";
+	color: #000;
+	text-align: center;
+	/*margin-top: 12px;*/
+}
+.flash>p:nth-of-type(2)>span{
+	font: bold 30px "微软雅黑";
+	color: #e94b59;
+	margin: 0 5px;
+}
+.center-flash{
+	width: 1026px;
+	height: 392px;
+	text-align: center;
+	background: url(../img1/55.png) center 15px no-repeat;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.center-flash>ul{
+	width: 316px;
+}
+.center-flash>ul:nth-of-type(1)>li{
+	float: left;
+}
+.center-flash>ul:nth-of-type(2)>li{
+	float: right;
+}
+
+.three{
+	height: 448px;
+	overflow: hidden;
+	background: #f2f0f0;
+}
+.center-phone{
+	width: 775px;
+	margin: 0 auto;
+	margin-top: 13px;
+}
+.center-phone>img{
+	margin-right: 64px;
+}
